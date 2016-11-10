@@ -6,19 +6,19 @@ p {
 	color: #ffffff;
 	font-family: sans-serif;
 	height: 100px;
+	padding: 0;
+	margin:0;
 }
 #name{
 	padding-top: 5;
 	padding-left: 10px;
 	margin: 0;
-	display: inline-block;
 	font-size: 80px;
+	display: inline-block;
 }
 #tagline{
-	padding: 0
+	padding-left: 40px;
+	padding-bottom: 0px;
 	margin: 0;
-	text-align: center;
-	background-color: #42AF63;
-	display: inline-block;
-	float: right;
+	display: inline-block;	
 }
