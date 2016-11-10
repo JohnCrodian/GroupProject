@@ -2,14 +2,23 @@ p {
 	font-family: serif;
 }
 .header-container{
-	display: block;
 	background-color: #42AF63;
 	color: #ffffff;
 	font-family: sans-serif;
-	padding: 0;
-	margin: 0;
+	height: 100px;
 }
 #name{
-	padding: 0;
+	padding-top: 5;
+	padding-left: 10px;
 	margin: 0;
+	display: inline-block;
+	font-size: 80px;
+}
+#tagline{
+	padding: 0
+	margin: 0;
+	text-align: center;
+	background-color: #42AF63;
+	display: inline-block;
+	float: right;
 }
