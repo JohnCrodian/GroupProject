@@ -1,3 +1,10 @@
 p {
 	font-family: serif;
 }
+.header-container{
+	display: block;
+	background-color: green;
+}
+.name-container{
+	font-color: white;
+}
