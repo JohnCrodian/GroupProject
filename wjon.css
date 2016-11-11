@@ -20,5 +20,34 @@ p {
 	padding-left: 40px;
 	padding-bottom: 0px;
 	margin: 0;
-	display: inline-block;	
+	display: inline-block;
 }
+.name-container{
+	font-color: white;
+}
+
+.interrogative {
+	background-color: #42AF63;
+	display: block;
+}
+
+h3 {
+	font-family: sans-serif;
+}
+
+#maintext {
+	display: inline-block;
+	width: 70%;
+	border: 5px solid black;
+	padding: 5px;
+
+}
+
+#sidebar {
+	display: inline-block;
+	float: right;
+	width: 25%;
+}
+
+.greytext {
+	color: #646262;
