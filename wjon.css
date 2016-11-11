@@ -10,7 +10,7 @@ p {
 	margin:0;
 }
 #name{
-	padding-top: 5;
+	padding-top: 5px;
 	padding-left: 10px;
 	margin: 0;
 	font-size: 80px;
@@ -22,8 +22,16 @@ p {
 	margin: 0;
 	display: inline-block;
 }
-.name-container{
-	font-color: white;
+#donate-button{
+	display:inline-block;
+	margin: 5px 5px 0px 0px;
+	float:right;
+	padding: 20px;
+	border: 5px solid #FFFFFF;
+	position: fixed;
+	top: 5px;
+	right: 5px;
+	background-color: #42AF63;
 }
 
 .interrogative {
@@ -51,3 +59,4 @@ h3 {
 
 .greytext {
 	color: #646262;
+}
