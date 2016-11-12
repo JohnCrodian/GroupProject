@@ -30,7 +30,7 @@ p {
 	display: inline-block;
 
 }
-#donate-button{
+.donate-button{
 	display:inline-block;
 	margin: 5px 5px 0px 0px;
 	float:right;
@@ -71,7 +71,6 @@ h4 span {
 #maintext {
 	display: inline-block;
 	width: 70%;
-
 	padding: 5px;
 	margin-top: 20px;
 	font-family: Georgia, serif;
@@ -100,6 +99,13 @@ h4 span {
 	margin-top: 40px;
 	display: inline-block;
 
+}
+#sidebar-button{
+	width: 70%;
+	margin: 50px auto;
+	display: block;
+	float: none;
+	text-align: center;
 }
 
 img {
