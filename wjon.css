@@ -16,6 +16,9 @@ p {
 	font-size: 80px;
 	display: inline-block;
 }
+#link{
+	color: #ffffff;
+}
 #tagline{
 	padding-left: 40px;
 	padding-bottom: 0px;
