@@ -30,20 +30,21 @@ p {
 	display: inline-block;
 
 }
-.donate-button{
+#donate-button{
 	display:inline-block;
 	margin: 5px 5px 0px 0px;
 	float:right;
 	padding: 20px;
 	border: 5px solid #FFFFFF;
+	position: fixed;
+	top: 5px;
+	right: 5px;
 	background-color: #42AF63;
 }
 
 .interrogative {
 	background-color: #42AF63;
 	display: block;
-	position: fixed;
-	bottom: 0;
 	text-align: center;
 	color: white;
 	width: 100%;
@@ -123,25 +124,10 @@ h4 span {
 	display: inline-block;
 
 }
-#sidebar-button{
-	width: 70%;
-	margin: 50px auto;
-	display: block;
-	float: none;
-	text-align: center;
-}
 
 
 img {
 width: 100%;
 }
-#donation-container{
-	display: block;
-	width: 60%;
-	margin: 0 auto;
-	font-size: 22px;
-}
-#donation-form{
-	margin-top: 40px;
-	margin-bottom: 80px;
-}
+Contact GitHub API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Status Help
