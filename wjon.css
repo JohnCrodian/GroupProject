@@ -8,7 +8,7 @@ p {
 	font-family: sans-serif;
 	height: 100px;
 	padding: 0;
-	margin:0;
+	margin-bottom: 10px;
 }
 #name{
 	padding-top: 5;
@@ -32,27 +32,67 @@ p {
 .interrogative {
 	background-color: #42AF63;
 	display: block;
+	position: fixed;
+	text-align: center;
+	color: white;
+	width: 100%;
 }
 
 h3 {
-	font-family: sans-serif;
+	font-family: Verdana, sans-serif;
 }
+
+h4 {
+	position: absolute;
+	top: 275px;
+	left: 0;
+	width: 100%;
+}
+
+h4 span {
+	color: white;
+	font: bold 24px Helvetica, sans-serif;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0,  0, 0.7);
+	padding:
+}
+
 
 #maintext {
 	display: inline-block;
 	width: 70%;
-	border: 5px solid black;
+
 	padding: 5px;
+	margin-top: 20px;
+	font-family: Georgia, serif;
 
 }
 
 #sidebar {
 	display: inline-block;
 	float: right;
+	margin-top: 20px;
+	height: 650px;
 	width: 25%;
+	border-style: inset;
+	border-width: 5px;
+	border-color: #42AF63;
+	font-size: 16pt;
 }
 
 .greytext {
 	color: #646262;
 
+}
+
+.imagecontainer {
+	position: relative;
+	width: 100%;
+	margin-top: 40px;
+	display: inline-block;
+
+}
+
+img {
+width: 100%;
 }
