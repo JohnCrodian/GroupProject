@@ -111,3 +111,9 @@ h4 span {
 img {
 width: 100%;
 }
+#donation-container{
+	display: block;
+	width: 60%;
+	margin: 0 auto;
+	font-size: 22px;
+}
