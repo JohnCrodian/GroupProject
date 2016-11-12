@@ -128,7 +128,16 @@ h4 span {
 	float: none;
 	text-align: center;
 }
-
+#donation-container{
+	display: block;
+	font-size: 22px;
+	width: 60%;
+	margin: 0 auto;
+}
+#donation-form{
+	margin-top: 50px;
+	margin-bottom: 70px;
+}
 img {
 width: 100%;
 }
