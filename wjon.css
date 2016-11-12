@@ -6,6 +6,7 @@ p {
 	background-color: #42AF63;
 	color: #ffffff;
 	font-family: sans-serif;
+	font
 	height: 100px;
 	padding: 0;
 	margin-bottom: 10px;
@@ -45,10 +46,10 @@ p {
 .interrogative {
 	background-color: #42AF63;
 	display: block;
-	position: fixed;
 	text-align: center;
 	color: white;
 	width: 100%;
+	margin-top: 20px;
 }
 
 h3 {
@@ -74,7 +75,6 @@ h4 span {
 #maintext {
 	display: inline-block;
 	width: 70%;
-
 	padding: 5px;
 	margin-top: 20px;
 	font-family: Georgia, serif;
@@ -90,11 +90,32 @@ h4 span {
 	border-style: inset;
 	border-width: 5px;
 	border-color: #42AF63;
+	border-radius: 25px;
 	font-size: 16pt;
+	padding: 5px;
+}
+
+.linkbox {
+	border-style: inset;
+	border-width: 5px;
+	border-color: #42AF63;
+	border-radius: 25px;
+	padding: 5px;
+}
+
+.linklist {
+	list-style: none;
+	font-family: sans-serif;
+	font-size: 24pt;
+
 }
 
 .greytext {
 	color: #646262;
+}
+
+.palatino {
+	font-family: Georgia, serif;
 }
 
 .imagecontainer {
@@ -104,6 +125,7 @@ h4 span {
 	display: inline-block;
 
 }
+
 
 img {
 width: 100%;
