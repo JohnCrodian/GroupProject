@@ -122,6 +122,12 @@ h3 {
 	font-size: 22px;
 	width: 60%;
 	margin: 0 auto;
+	border-style: inset;
+	border-width: 5px;
+	border-color: #42AF63;
+	border-radius: 25px;
+	padding: 5px;
+
 }
 #donation-form{
 	margin-top: 50px;
