@@ -9,24 +9,33 @@
 		<div class="header-container">
 			<h1 id="name">WJON</h1>
 			<h3 id="tagline">Help us help you face the realities of SEPTA</h3>
-			<h2 id="donate-button"><a id="link" href="wjon.html"> Back to Homepage</a></h2>
+			<h2 class="donate-button"><a id="link" href="wjon.html"> Back to Homepage</a></h2>
 		</div>
 	</header>
 	<div>
-	<div id="maintext">
+	<div id="donation-container">
 		<h3>WJON Needs Your Dollars!</h3>
-			<div class="greytext">
+		<div class="greytext">
 
-				<p>WJON needs your money in order to both get on and complain about public transportation!  This is why this p tag will eventually have little boxes to enter your name and your donation amount along with a button that has the word "Donate Now" (aesthetically only, we don't learn background programming until next week).</p>
-			</div>
+			<p>WJON needs your money in order to both get on and complain about public transportation!  If everyone gives a little, Jon can complain a lot!</p>
+		</div>
+		<div id="donation-form">
+			<!- The following is copied code to make a search box. There is nothing in CSS corresponding to this code. The copied code is all inside of the form, although this code was tweaked to make it work for WJON purposes.-!>
+			<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+				<div class="row">
+					<label for="email">Your Name:</label><br />
+					<input id="email" class="input" name="name" type="text" value="" size="30" /><br />
+					<label for="email">Donation Amount:</label><br />
+					<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+				</div>
+				<input id="submit_button" type="submit" value="Continue to Payment Details" />
+			</form>
+		</div>
+		<div class= "greytext">
+			<p> WJON will accept most major credit cards, paypal and of course you are welcome to throw cash at Jon in the back of the train (if you have coins, please place them, do not throw them).  You can add your donation on your taxes, although you will need to ask an actual CPA if that is even worth it or not.</p>
+		</div>				
 	</div>
-	<div id="sidebar">
-		<h3>WJON Needs Money Immediately</h3>
-			<div class="greytext">
-				<p>John Crodian is the loan broadcaster at WJON. He just sits in the back of a train car and yells into a transmitter until service shuts down. Your donation pays for his lunch.</p>
-			</div>
-
-	</div>
+	
 		<footer>
 			<div class= "interrogative">
 			<p>WHAT MORE IS THERE TO SAY????</p>
